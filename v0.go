@@ -159,7 +159,7 @@ func (s *ESAPIV0) GetIndexMappings(copyAllIndexes bool, indexNames string) (stri
 		}
 		indexNames = strings.Join(newIndexes, ",")
 
-	} else if strings.Contains(indexNames, "*") || strings.Contains(indexNames, "?") {
+	} else {
 
 		r, _ := regexp.Compile(indexNames)
 
