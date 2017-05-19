@@ -75,8 +75,7 @@ use sliced scroll(only available in elasticsearch v5) to speed scroll, and updat
 ```
 
 ## Download
-https://github.com/medcl/elasticsearch-dump/releases
-
+https://github.com/medcl/hawkingrei/elasticsearch-migration/releases
 
 ## Compile:
 
